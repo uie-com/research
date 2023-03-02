@@ -492,7 +492,7 @@ li {
     line-height: 1.5;
 }
 
-*/ ul,
+ ul,
 ol {
     /* display: block; */
     margin-block-start: 0em;
@@ -500,6 +500,11 @@ ol {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 50px;
+    list-style-position: inside;
+    padding: 5px 20px;
+}
+ul{
+    list-style: square inside;
 }
 
 h1,
@@ -571,17 +576,21 @@ p {
 
 #header .topbar {
     /* padding: 35px 20px; */
+    padding: 5px 0px; 
     display: flex;
     justify-content: space-between;
 }
 
 #header .topbar img {
-    max-width: 200px;
+    max-width: 210px;
     width: 100%;
     height: auto;
 }
 
-
+.head-logo{
+    margin-top:0.35rem;
+    margin-bottom: 0.35rem;
+}
 
 @media screen and (max-width: 27em) {
     #header .btn {
@@ -589,10 +598,9 @@ p {
     }
 
     #header .topbar img {
-        max-width: 200px;
         width: 100%;
         height: 100%;
-        max-height: 40px;
+        max-height: 35px;
     }
 }
 
@@ -696,7 +704,7 @@ p {
     text-transform: uppercase;
     text-align: center;
     font-size: 1.125rem;
-    padding: 0.8em 2em;
+    padding: 0.6em 2em;
     background: var(--accent, black);
     -webkit-transition: opacity 250ms linear, -webkit-transform 250ms ease-in-out;
     transition: opacity 250ms linear, -webkit-transform 250ms ease-in-out;
