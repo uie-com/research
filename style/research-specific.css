@@ -29,3 +29,9 @@
     top: 2px;
     left: -3px;
 }
+
+.container-cc-narrow {
+    width: 85%;
+    max-width: 55em;
+    margin: 0 auto;
+}
