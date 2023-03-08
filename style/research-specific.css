@@ -69,3 +69,14 @@ p{
 .box-head-ticket .icon{
     width: 30px;
 }
+
+.date{
+    max-width: 200px;
+}
+
+@media only screen and (max-width: 54em) {
+    .date {
+       margin:0 auto;
+    }
+
+}
