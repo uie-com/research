@@ -84,10 +84,11 @@ FOOTER
 /*------------------------------------*\
     $UTILITY CLASSES
 \*------------------------------------*/
-.sticky{
-    top:5px;
+.sticky {
+    top: 5px;
     position: sticky;
 }
+
 .img-cc {
     max-width: 100%;
     display: block;
@@ -107,13 +108,14 @@ FOOTER
 
 @media only screen and (max-width: 54em) {
     .hide-on-mobile {
-       display: none;
+        display: none;
     }
 
 }
+
 @media only screen and (min-width: 54em) {
     .hide-on-desktop {
-       display: none;
+        display: none;
     }
 
 }
@@ -520,7 +522,8 @@ ol {
     list-style-position: inside;
     padding: 5px 20px;
 }
-ul{
+
+ul {
     list-style: square inside;
 }
 
@@ -566,8 +569,7 @@ h4 {
     line-height: 1.2;
 }
 
-.font
-p {
+.font p {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
@@ -593,7 +595,7 @@ p {
 
 #header .topbar {
     /* padding: 35px 20px; */
-    padding: 5px 0px; 
+    padding: 5px 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -604,8 +606,8 @@ p {
     height: auto;
 }
 
-.head-logo{
-    margin-top:0.35rem;
+.head-logo {
+    margin-top: 0.35rem;
     margin-bottom: 0.35rem;
 }
 
@@ -810,7 +812,8 @@ p {
     -webkit-box-shadow: 1px 1px 0px 0px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8), 1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0), -3px 3px 0px 0px rgba(0, 0, 0, 1);
     -moz-box-shadow: 1px 1px 0px 0px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8), 1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0), -3px 3px 0px 0px rgba(0, 0, 0, 1);
     top: 3px;
-    left: -3px;}
+    left: -3px;
+}
 
 
 /*------------------------------------*\
@@ -1086,7 +1089,8 @@ footer img {
     margin: 0 auto;
 }
 
-.txt-cente, .text-center {
+.txt-cente,
+.text-center {
     text-align: center;
 }
 
@@ -1106,6 +1110,10 @@ footer img {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.fifty-percent {
+    min-width: 100px;
 }
 
 .footer-padding {
