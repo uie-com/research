@@ -80,6 +80,13 @@ FOOTER
     $GENERAL
 \*------------------------------------*/
 
+picture {
+    display: block;
+}
+
+.graphic {
+    max-width: 150px;
+}
 
 /*------------------------------------*\
     $UTILITY CLASSES
@@ -119,7 +126,6 @@ FOOTER
     }
 
 }
-
 
 /*------------------------------------*\
     $SPACING
@@ -1110,10 +1116,6 @@ footer img {
     width: 100%;
     height: auto;
     display: block;
-}
-
-.fifty-percent {
-    min-width: 100px;
 }
 
 .footer-padding {
