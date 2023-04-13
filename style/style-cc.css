@@ -106,7 +106,7 @@ picture {
 }
 
 .no-margin {
-    padding: 0;
+    margin: 0;
 }
 
 .center {
@@ -259,6 +259,14 @@ picture {
 
 .pr-5 {
     padding-right: 5em;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-1-5 {
+    gap: 1.5rem;
 }
 
 /*------------------------------------*\
@@ -517,6 +525,18 @@ li {
     line-height: 1.5;
 }
 
+li>ul>li {
+    list-style-type: circle;
+}
+
+.orange-check>li {
+    list-style: none;
+    background: url(../images/new-orange-check.png);
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    background-position: 0px 3px;
+}
+
 ul,
 ol {
     /* display: block; */
@@ -582,6 +602,10 @@ h4 {
 
 .text-white {
     color: var(--white);
+}
+
+.text-orange {
+    color: var(--brightOrange)
 }
 
 
