@@ -265,12 +265,24 @@ picture {
     padding-right: 5em;
 }
 
-.gap-p-7 {
-    gap: .7rem;
-}
-
 .gap-1 {
     gap: 1rem;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+
+.gap-4 {
+    gap: 4rem;
+}
+
+.gap-p-7 {
+    gap: .7rem;
 }
 
 .gap-1-5 {
