@@ -52,8 +52,13 @@ p {
 
 
 .vip-box {
-    background-color: rgb(0, 109, 133);
-    background-image: url("/images/redbg.png");
+    background-color: var(--brightPurple);
+    background-size: cover;
+    background-position: top right;
+}
+
+.recordings-box {
+    background-color: var(--brightBlue);
     background-size: cover;
     background-position: top right;
 }

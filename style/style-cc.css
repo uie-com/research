@@ -261,6 +261,10 @@ picture {
     padding-right: 5em;
 }
 
+.gap-p-7 {
+    gap: .7rem;
+}
+
 .gap-1 {
     gap: 1rem;
 }
@@ -537,6 +541,30 @@ li>ul>li {
     background-position: 0px 3px;
 }
 
+.purple-check>li:not(:first-child) {
+    list-style: none;
+    background: url(../images/purple-check.png);
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    background-position: 0px 3px;
+}
+
+.purple-check>li:first-child {
+    list-style: none;
+    background: url(../images/new-orange-check.png);
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    background-position: 0px 3px;
+}
+
+.blue-check>li {
+    list-style: none;
+    background: url(../images/blue-check.png);
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    background-position: 0px 3px;
+}
+
 ul,
 ol {
     /* display: block; */
@@ -605,7 +633,15 @@ h4 {
 }
 
 .text-orange {
-    color: var(--brightOrange)
+    color: var(--brightOrange);
+}
+
+.text-purple {
+    color: var(--brightPurple);
+}
+
+.text-blue {
+    color: var(--brightBlue);
 }
 
 
