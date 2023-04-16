@@ -85,6 +85,10 @@ picture {
 }
 
 .graphic {
+    max-width: 150px;
+}
+
+.graphic-in-section {
     max-width: 250px;
 }
 
