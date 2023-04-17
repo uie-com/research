@@ -569,6 +569,10 @@ li>ul>li {
     background-position: 0px 3px;
 }
 
+.orange-check>li>ul>li {
+    list-style-type: circle;
+}
+
 .purple-check>li:not(:first-child) {
     list-style: none;
     background: url(../images/purple-check.png);
@@ -576,6 +580,7 @@ li>ul>li {
     padding: 0 0 0 30px;
     background-position: 0px 3px;
 }
+
 
 .purple-check>li:first-child {
     list-style: none;
@@ -585,12 +590,20 @@ li>ul>li {
     background-position: 0px 3px;
 }
 
+.purple-check>li>ul>li {
+    list-style-type: circle;
+}
+
 .blue-check>li {
     list-style: none;
     background: url(../images/blue-check.png);
     background-repeat: no-repeat;
     padding: 0 0 0 30px;
     background-position: 0px 3px;
+}
+
+.blue-check>li>ul>li {
+    list-style-type: circle;
 }
 
 ul,
