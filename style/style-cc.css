@@ -474,6 +474,16 @@ picture {
     }
 }
 
+h3.call-out-text {
+    font-size: 2.5rem;
+}
+
+@media(min-wdith:1024px) {
+    .align-baseline {
+        align-items: baseline;
+    }
+}
+
 /*------------------------------------*\
     $Colors
 \*------------------------------------*/
