@@ -573,7 +573,7 @@ li>ul>li {
     list-style-type: circle;
 }
 
-.purple-check>li:not(:first-child) {
+.purple-check>li {
     list-style: none;
     background: url(../images/purple-check.png);
     background-repeat: no-repeat;
@@ -581,14 +581,6 @@ li>ul>li {
     background-position: 0px 3px;
 }
 
-
-.purple-check>li:first-child {
-    list-style: none;
-    background: url(../images/new-orange-check.png);
-    background-repeat: no-repeat;
-    padding: 0 0 0 30px;
-    background-position: 0px 3px;
-}
 
 .purple-check>li>ul>li {
     list-style-type: circle;
