@@ -455,8 +455,23 @@ picture {
     }
 }
 
-.width-50 {
-    width: 50%;
+@media(min-width:1024px) {
+    .width-50-on-desktop {
+        width: 50%;
+    }
+}
+
+@media(max-width:1024px) {
+    .slightly-smaller {
+        font-size: 1.9rem;
+    }
+}
+
+@media(max-width:768px) {
+    .no-padding-on-tablet {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 /*------------------------------------*\
@@ -1332,3 +1347,13 @@ footer img {
 /*------------------------------------*\
    END $FOOTER
 \*------------------------------------*/
+
+/*------------------------------------*\
+  Styles to be categorized later 
+\*------------------------------------*/
+
+@media(max-width:1024px) {
+    .no-padding-right-on-mobile {
+        padding-right: 0;
+    }
+}
