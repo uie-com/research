@@ -339,6 +339,11 @@ picture {
     display: flex;
 }
 
+.desktop-column {
+    display: flex;
+    flex-direction: column;
+}
+
 .basis20 {
     flex-basis: 20%;
 }
@@ -450,6 +455,9 @@ picture {
     }
 }
 
+.width-50 {
+    width: 50%;
+}
 
 /*------------------------------------*\
     $Colors
@@ -550,7 +558,7 @@ li {
 }
 
 li>ul>li {
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 .orange-check>li {
@@ -593,13 +601,10 @@ ol {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 50px;
-    list-style-position: inside;
     padding: 5px 20px;
 }
 
-ul {
-    list-style: square inside;
-}
+
 
 h1,
 h2,
