@@ -88,3 +88,10 @@ p {
     }
 
 }
+
+@media only screen and (max-width: 420px) {
+    .hero-item h2 {
+        font-weight: 400;
+    }
+}
+
