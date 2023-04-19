@@ -471,7 +471,7 @@ picture {
 
 @media(max-width:1024px) {
     .slightly-smaller {
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -642,6 +642,9 @@ ol {
     padding: 5px 20px;
 }
 
+li > ul {
+    margin-block-end: 0em;
+}
 
 
 h1,
