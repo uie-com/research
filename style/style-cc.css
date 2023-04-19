@@ -89,7 +89,14 @@ picture {
 }
 
 .graphic-in-section {
-    max-width: 250px;
+    width: 20em;
+}
+
+.graphic-in-section img {
+    max-height: 180px;
+}
+.graphic-in-section-mobile {
+    width: 15em;
 }
 
 /*------------------------------------*\
@@ -403,6 +410,7 @@ picture {
 .image-right {
     margin-left: auto;
 }
+
 
 @media only screen and (max-width: 54em) {
 
