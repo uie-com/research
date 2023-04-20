@@ -1379,3 +1379,15 @@ footer img {
         padding-right: 0;
     }
 }
+
+@media(max-width:375px) {
+    #header .topbar {
+        flex-direction: column;
+
+    }
+
+    .head-button {
+        margin-top: 0.35rem;
+        margin-bottom: 0.35rem;
+    }
+}
