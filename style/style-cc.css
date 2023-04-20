@@ -95,6 +95,7 @@ picture {
 .graphic-in-section img {
     max-height: 180px;
 }
+
 .graphic-in-section-mobile {
     width: 19em;
 }
@@ -464,8 +465,8 @@ picture {
 }
 
 @media(min-width:1024px) {
-    .width-50-on-desktop {
-        width: 50%;
+    .width-70-on-desktop {
+        width: 70%;
     }
 }
 
@@ -642,7 +643,7 @@ ol {
     padding: 5px 20px;
 }
 
-li > ul {
+li>ul {
     margin-block-end: 0em;
 }
 
