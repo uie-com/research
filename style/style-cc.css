@@ -209,6 +209,10 @@ picture {
     padding-top: 4em;
 }
 
+.pt-4-7 {
+    padding-top: 4.7em;
+}
+
 .pt-5 {
     padding-top: 5em;
 }
@@ -235,6 +239,10 @@ picture {
 
 .pb-5 {
     padding-bottom: 5em;
+}
+
+.pl-0 {
+    padding-left: 0rem;
 }
 
 .pl-1 {
@@ -601,6 +609,7 @@ li>ul>li {
     background-repeat: no-repeat;
     padding: 0 0 0 30px;
     background-position: 0px 3px;
+    background-size: 20px;
 }
 
 .orange-check>li>ul>li {
@@ -613,6 +622,7 @@ li>ul>li {
     background-repeat: no-repeat;
     padding: 0 0 0 30px;
     background-position: 0px 3px;
+    background-size: 20px;
 }
 
 
@@ -626,6 +636,7 @@ li>ul>li {
     background-repeat: no-repeat;
     padding: 0 0 0 30px;
     background-position: 0px 3px;
+    background-size: 20px;
 }
 
 .blue-check>li>ul>li {
@@ -1390,4 +1401,24 @@ footer img {
         margin-top: 0.35rem;
         margin-bottom: 0.35rem;
     }
+}
+
+@media(min-width:1024px) {
+    .hero-padding-adjustment-image {
+        padding-top: 4.7em;
+        padding-bottom: 1em;
+    }
+
+    .hero-padding-adjustment-text {
+        padding-top: 1em;
+        padding-bottom: 5em;
+    }
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.align-center {
+    align-items: center
 }
