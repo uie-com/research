@@ -4,6 +4,11 @@
     background-repeat: no-repeat;
 }
 
+.hero-item {
+    display: flex;
+    align-items: center;
+}
+
 .btn-research {
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: var(--black) !important;
