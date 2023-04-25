@@ -91,6 +91,14 @@ p {
     .date {
         margin: 0 auto;
     }
+    .mobile-view {
+        margin: 0px;
+        width: 100%;
+    }
+    .mobile-view h2, h3, p, ul {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 
 }
 
