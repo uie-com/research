@@ -92,7 +92,7 @@ p {
         margin: 0 auto;
     }
     .mobile-view {
-        margin: 0px;
+        margin: 0px !important;
         width: 100%;
     }
     .mobile-view h2, h3, p, ul {
