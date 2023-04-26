@@ -110,6 +110,9 @@ p {
         align-items: flex-start;
     }
 
+    .mobile-left {
+        margin-left: 0px !important;
+    }
 }
 
 @media only screen and (max-width: 420px) {
