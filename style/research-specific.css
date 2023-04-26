@@ -105,6 +105,11 @@ p {
         padding-right: 25px;
     }
 
+    .hero-item {
+        display: flex;
+        align-items: flex-start;
+    }
+
 }
 
 @media only screen and (max-width: 420px) {
