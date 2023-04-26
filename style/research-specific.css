@@ -91,11 +91,16 @@ p {
     .date {
         margin: 0 auto;
     }
+
     .mobile-view {
         margin: 0px !important;
         width: 100%;
     }
-    .mobile-view h2, h3, p, ul {
+
+    .mobile-view h2,
+    .mobile-view h3,
+    .mobile-view p,
+    .mobile-view ul {
         padding-left: 25px;
         padding-right: 25px;
     }
@@ -107,4 +112,3 @@ p {
         font-weight: 400;
     }
 }
-
