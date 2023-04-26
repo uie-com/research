@@ -97,7 +97,7 @@ picture {
 }
 
 .graphic-in-section-mobile {
-    width: 19em;
+    width: 18em;
 }
 
 /*------------------------------------*\
@@ -1384,6 +1384,9 @@ footer img {
 @media(max-width:1024px) {
     .no-padding-right-on-mobile {
         padding-right: 0;
+    }
+    h3.call-out-text {
+        font-size: 2rem;
     }
 }
 
