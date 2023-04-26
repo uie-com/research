@@ -1386,7 +1386,7 @@ footer img {
         padding-right: 0;
     }
     h3.call-out-text {
-        font-size: 2rem;
+        font-size: 2rem !important;
     }
 }
 
