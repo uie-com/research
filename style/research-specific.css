@@ -120,4 +120,8 @@ p {
     .hero-item h2 {
         font-weight: 400;
     }
+
+    .mobile-no-pb.py-3 {
+        padding-bottom: 0;
+    }
 }
