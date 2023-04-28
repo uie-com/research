@@ -167,6 +167,10 @@ p {
     .mobile-no-pb.py-3 {
         padding-bottom: 0;
     }
+}
+
+@media only screen and (max-width: 865px) {
+    
     .divider {
         border-right: 0px solid white;
         border-bottom: 2px solid white;
