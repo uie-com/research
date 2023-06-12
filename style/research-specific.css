@@ -38,6 +38,10 @@ html {
     left: -3px;
 }
 
+.disabled-link {
+    pointer-events: none;
+}
+
 .container-cc-narrow {
     width: 85%;
     max-width: 55em;
