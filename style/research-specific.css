@@ -13,6 +13,12 @@ html {
     align-items: center;
 }
 
+.hero-text {
+    padding-left: 25px;
+    
+
+}
+
 .btn-research {
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: var(--black) !important;
