@@ -595,10 +595,12 @@ li {
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
     line-height: 1.5;
+
 }
 
 li>ul>li {
     list-style-type: none;
+
 }
 
 .orange-check>li {
