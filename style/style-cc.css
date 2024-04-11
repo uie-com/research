@@ -61,6 +61,7 @@ FOOTER
     --lightGray: #f2f2f2;
     --darkGray: #a3a3a3;
     --black: #2c2c2c;
+    --realblack: #000000;
 
     --bgMain: var(--brightPurple);
     --accent: var(--darkBlue);
@@ -125,7 +126,7 @@ picture {
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 54em) {
     .hide-on-mobile {
         display: none;
     }
@@ -578,7 +579,7 @@ h3.call-out-text {
 }
 
 .bg-black {
-    background-color: var(--black);
+    background-color: var(--realblack);
 }
 
 
@@ -887,8 +888,8 @@ h4 {
 .btn-purple {
     color: var(--white);
     background-color: var(--brightPurple);
-}
 
+}
 .btn-purple:hover {
     color: var(--white);
     background-color: var(--darkPurple);
@@ -1226,7 +1227,7 @@ footer img {
 }
 
 .black-bg {
-    background-color: var(--black);
+    background-color: var(--realblack);
 }
 
 .contr {
@@ -1349,7 +1350,7 @@ footer img {
 }
 
 .dark-footer {
-    background-color: var(--black);
+    background-color: var(--realblack);
 }
 
 .light-footer .white-logo {
