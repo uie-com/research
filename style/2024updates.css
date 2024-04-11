@@ -110,6 +110,8 @@ flex-shrink: 0;
 }
 .ulPaid {
     list-style: none;
+
+  
 }
 
 .mobleSize {
@@ -121,7 +123,6 @@ flex-shrink: 0;
 
 }
 
-
 .ulPaid .paidLi::before{
     content: "\2713 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: #9B0E5B; /* Change the color */
@@ -129,6 +130,7 @@ flex-shrink: 0;
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
+
 } 
 
 
@@ -139,6 +141,7 @@ flex-shrink: 0;
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
+
 } 
 .ulPaidPTL {
     list-style: none;
@@ -151,6 +154,7 @@ flex-shrink: 0;
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
+
 }
 
 .ulPaidPTL .paidLiPTli::before{
@@ -160,6 +164,7 @@ flex-shrink: 0;
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
+
 }
 
 .btn a {
