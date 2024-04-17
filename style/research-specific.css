@@ -80,6 +80,7 @@ html {
 }
 
 p {
+
     margin-bottom: 1.5rem;
 }
 
@@ -172,7 +173,7 @@ p {
 
 @media only screen and (max-width: 420px) {
     .hero-item h2 {
-        font-weight: 400;
+        font-weight: 700;
         
     }
 
@@ -202,7 +203,7 @@ p {
 .testimonial-title h4 {
     font-size: 1.4em;
     letter-spacing: 1.5px;
-    font-weight: normal;
+    font-weight: 400;
     padding-bottom: 20px;
 }
 
