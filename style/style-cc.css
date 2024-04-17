@@ -72,10 +72,10 @@ FOOTER
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /* color: rgb(47 47 47); */
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     box-sizing: border-box;
 }
+
 
 /*------------------------------------*\
     $GENERAL
@@ -592,7 +592,7 @@ h3.call-out-text {
 \*------------------------------------*/
 p,
 li {
-    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
@@ -665,7 +665,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 }
 
 
@@ -1096,7 +1096,7 @@ h4 {
 }
 
 .btn-goals {
-    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     color: var(--black) !important;
     background-color: white;
     transition: background-color 0.24s ease;
@@ -1153,7 +1153,7 @@ START TESTIMONIALS
 }
 
 .testimonial-quote-bg:before {
-    font-family: Helvetica, 'Arial', Times, serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     content: '"';
     font-weight: 400;
     width: 60px;
@@ -1213,7 +1213,7 @@ END TESTIMONIALS
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     box-sizing: border-box;
 }
 

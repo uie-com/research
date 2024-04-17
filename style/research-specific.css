@@ -45,7 +45,7 @@ html {
 }
 
 .btn-research {
-    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     color: var(--black) !important;
     background-color: white;
     transition: background-color 0.24s ease;
