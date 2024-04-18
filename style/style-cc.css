@@ -48,6 +48,7 @@ FOOTER
     --darkRed: #951a1d;
     --brightRed: #d52327;
     --darkPurple: #662547;
+    --darkerPurple: #4A1A2C;
     --brightPurple: #9B0E5B;
     --orange: #9b621c;
     --darkOrange: #C14E27;
@@ -688,7 +689,7 @@ h3 {
     font-size: 1.5em;
     padding-top: 20px;
     padding-bottom: 10px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.2;
 }
 
@@ -897,6 +898,17 @@ h4 {
     color: var(--white);
     background-color: var(--darkPurple);
 }
+
+.btn-darkpurple {
+    color: var(--white);
+    background-color: var(--darkPurple);
+
+}
+.btn-darkpurple:hover {
+    color: var(--white);
+    background-color: var(--darkerPurple);
+}
+
 
 .btn-yellow {
     color: var(--dark);
