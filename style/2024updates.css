@@ -123,6 +123,11 @@ flex-shrink: 0;
 
 }
 
+.semibold {
+    font-weight: 600;
+
+}
+
 .ulPaid .paidLi::before{
     content: "\2713 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: #9B0E5B; /* Change the color */
@@ -200,6 +205,16 @@ button {
 .font-size{
     font-size: 20px;
     margin-top: 5px;
+}
+
+.caption {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; 
+    font-weight: 600;
 }
 
 .mobleSizeBlank {
