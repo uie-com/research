@@ -128,24 +128,29 @@ flex-shrink: 0;
 
 }
 
+
+
 .ulPaid .paidLi::before{
     content: "\2713 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #4A1A2C; /* Change the color */
+    color: #9B0E5B; /* Change the color */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; 
     font-weight: 700;
-
+line-height: 1.5;
+padding: 5px 0px;
 } 
 
 
 .ulPaid .paidLili::before{
     content: "\2022 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #4A1A2C; /* Change the color */
+    color: #9B0E5B; /* Change the color */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
     font-weight: 700;
-
+line-height: 1.5;
+padding: 5px 0px;
 } 
 .ulPaidPTL {
     list-style: none;
@@ -158,7 +163,8 @@ flex-shrink: 0;
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
     font-weight: 700;
-
+line-height: 1.5;
+padding: 5px 0px;
 }
 
 .ulPaidPTL .paidLiPTli::before{
@@ -168,7 +174,8 @@ flex-shrink: 0;
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
     font-weight: 700;
-
+line-height: 1.5;
+padding: 5px 0px;
 }
 
 .btn a {
