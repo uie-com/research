@@ -45,7 +45,7 @@ html {
 }
 
 .btn-research {
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: var(--black) !important;
     background-color: white;
     transition: background-color 0.24s ease;
@@ -173,7 +173,7 @@ p {
 
 @media only screen and (max-width: 420px) {
     .hero-item h2 {
-        font-weight: 700;
+        font-weight: 00;
         
     }
 
