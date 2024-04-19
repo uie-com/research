@@ -130,7 +130,7 @@ flex-shrink: 0;
 
 .ulPaid .paidLi::before{
     content: "\2713 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #9B0E5B; /* Change the color */
+    color: #4A1A2C; /* Change the color */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     font-weight: 700;
@@ -140,7 +140,7 @@ flex-shrink: 0;
 
 .ulPaid .paidLili::before{
     content: "\2022 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #9B0E5B; /* Change the color */
+    color: #4A1A2C; /* Change the color */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
