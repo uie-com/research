@@ -605,6 +605,7 @@ li>ul>li {
 
 }
 
+/*
 .orange-check>li {
     list-style: none;
     background: url(../images/new-orange-check.png);
@@ -648,18 +649,19 @@ li>ul>li {
 ul,
 ol {
     /* display: block; */
-    margin-block-start: 0em;
+    /*margin-block-start: 0em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 50px;
     padding: 5px 20px;
 }
-
+*/
+/*
 li>ul {
     margin-block-end: 0em;
 }
-
+*/
 
 h1,
 h2,

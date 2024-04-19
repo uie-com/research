@@ -129,6 +129,15 @@ flex-shrink: 0;
 }
 
 
+ol, ul {
+    margin-left: 2em; 
+    line-height: 1.5;
+}
+
+
+
+
+
 .ulPaid .paidLi::before{
     content: "\2713 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: #9B0E5B; /* Change the color */
@@ -176,6 +185,12 @@ padding: 5px 0px;
 line-height: 1.5;
 padding: 5px 0px;
 }
+
+
+
+
+
+
 
 .btn a {
     color: #fff;
