@@ -189,7 +189,7 @@ padding: 5px 0px;
 }
 
 
-a[href^=tel] { color: inherit; text-decoration: none !important; } 
+
 
 
 
@@ -206,7 +206,7 @@ button {
     text-decoration: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 625px) {
   .re-order .row {
     display: flex;
     display: -ms-flex;
@@ -215,8 +215,9 @@ button {
   .re-order .row .first {
     order: 2;
   }
-  .re-order .row .second {
+  .re-order .row .second  {
     order: 1;
+
   }
 }
 
