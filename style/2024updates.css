@@ -206,20 +206,7 @@ button {
     text-decoration: none;
 }
 
-@media (min-width: 625px) {
-  .re-order .row {
-    display: flex;
-    display: -ms-flex;
-    flex-direction: column;
-  }
-  .re-order .row .first {
-    order: 2;
-  }
-  .re-order .row .second  {
-    order: 1;
 
-  }
-}
 
 
 @media only screen and (max-width: 625px) { 
@@ -241,6 +228,7 @@ button {
         grid-gap: 1rem;
         margin-bottom: 1rem;
     }
+    
 .font-size{
     font-size: 20px;
     margin-top: 5px;
