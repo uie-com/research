@@ -473,7 +473,7 @@ picture {
 
 @media only screen and (max-width: 54em) {
 .reorder {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse !important;
 }
 
 
