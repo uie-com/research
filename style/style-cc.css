@@ -1215,14 +1215,15 @@ START TESTIMONIALS
     margin-right: 0px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 48em) {
     .testimonial-quote {
         flex-basis: 100%;
         margin-right: 0px !important;
     }
-    .testimonial-img {
+   .testimonial-img {
     margin-top: 35px !important;
 }
+
 }
 
 .testimonial-quote .emph {
