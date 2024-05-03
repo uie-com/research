@@ -136,7 +136,7 @@ p {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 54em) {
+@media only screen and (max-width: 48em) {
     .date {
         margin: 0 auto;
     }
@@ -171,7 +171,7 @@ p {
 
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 48em) {
     .hero-item h2 {
         font-weight: 00;
         
@@ -215,7 +215,7 @@ p {
     margin-right: 5px;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 48em) {
     .hero-item h2 {
         font-weight: 400;
     }
@@ -225,7 +225,7 @@ p {
     }
 }
 
-@media only screen and (max-width: 865px) {
+@media only screen and (max-width: 48em) {
     
     .divider {
         border-right: 0px solid white;
@@ -238,7 +238,7 @@ p {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 48em) {
     .flex-row {
         flex-direction: column;
     }
