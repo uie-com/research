@@ -230,6 +230,7 @@ p {
     .divider {
         border-right: 0px solid white;
         border-bottom: 2px solid white;
+        margin-bottom: 35px;
     }
 
     .testimonial .pr-3, .testimonial .pl-3 {
