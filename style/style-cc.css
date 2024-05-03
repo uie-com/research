@@ -1221,7 +1221,7 @@ START TESTIMONIALS
         margin-right: 0px !important;
     }
     .testimonial-img {
-    margin-top: 35px;
+    margin-top: 35px !important;
 }
 }
 
