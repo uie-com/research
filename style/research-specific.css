@@ -88,7 +88,8 @@ p {
     font-size: 1.15rem;
     max-width: 700px;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .fund-box {
@@ -166,7 +167,7 @@ p {
     }
 
     .topquote h3 {
-        font-size: 1.25em;
+        font-size: 1.15em;
     }
 
 }
