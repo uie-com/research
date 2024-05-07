@@ -328,7 +328,7 @@ picture {
 }
 
 .column {
-    padding: 1em;
+    padding: 1.5em;
 }
 
 .column:not(:last-child) {
