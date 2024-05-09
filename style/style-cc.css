@@ -432,12 +432,14 @@ picture {
     flex-direction: column;
   }
 
+  /*Top Quote*/
   .split-top {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
 
+  /*Jared's section*/
   .split-special {
     display: flex;
     flex-wrap: wrap;
