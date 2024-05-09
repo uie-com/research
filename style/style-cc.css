@@ -339,12 +339,13 @@ picture {
 
   /* justify-content: space-between;*/
 }
-
+/*top quote*/
 .split-top {
   display: flex;
   align-items: center;
 }
 
+/*Jared's section*/
 .split-special {
   display: flex;
 }
