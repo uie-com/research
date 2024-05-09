@@ -122,13 +122,13 @@ picture {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 47.5em) {
+@media only screen and (max-width: 760px) {
   .hide-on-mobile {
     display: none;
   }
 }
 
-@media only screen and (min-width: 47.5em) {
+@media only screen and (min-width: 760px) {
   .hide-on-desktop {
     display: none;
   }
@@ -419,7 +419,7 @@ picture {
   margin-left: auto;
 }
 
-@media only screen and (max-width: 47.5em) {
+@media only screen and (max-width: 760px) {
   .image-left,
   .image-right {
     margin-right: auto;
@@ -427,7 +427,7 @@ picture {
   }
 }
 
-@media only screen and (max-width: 47.5em) {
+@media only screen and (max-width: 760px) {
   .split {
     flex-direction: column;
   }
@@ -436,6 +436,7 @@ picture {
   .split-top {
     display: flex;
     align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
   }
 
@@ -479,9 +480,13 @@ picture {
   .m-width-200 {
     max-width: 200px;
   }
+
+  h3.topbar-text {
+    font-size: 1.5rem;
+  }
 }
 
-@media only screen and (max-width: 47.5em) {
+@media only screen and (max-width: 760px) {
   .reorder {
     flex-direction: column-reverse !important;
   }
@@ -768,7 +773,7 @@ h4 {
   text-decoration: none;
 }
 
-@media screen and (max-width: 27em) {
+@media screen and (max-width: 432px) {
   #header .btn {
     font-size: 0.75rem !important;
   }
@@ -816,6 +821,16 @@ h4 {
 .hero-community {
   background: var(--brightBlue) url("images/hero/.png") no-repeat;
   background-size: cover;
+}
+
+.hero-padding-adjustment-image {
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+
+.hero-padding-adjustment-text {
+  padding-top: 1em;
+  padding-bottom: 3em;
 }
 
 /*------------------------------------*\
@@ -1222,7 +1237,7 @@ START TESTIMONIALS
   margin-right: 0px;
 }
 
-@media only screen and (max-width: 47.5em) {
+@media only screen and (max-width: 760px) {
   .testimonial-quote {
     flex-basis: 100%;
     margin-right: 0px !important;
@@ -1502,13 +1517,11 @@ footer img {
 
 @media (min-width: 1024px) {
   .hero-padding-adjustment-image {
-    padding-top: 4.7em;
-    padding-bottom: 1em;
+    padding-top: 48px;
   }
 
   .hero-padding-adjustment-text {
-    padding-top: 1em;
-    padding-bottom: 5em;
+    padding-bottom: 48px;
   }
 }
 
@@ -1520,7 +1533,7 @@ footer img {
   align-items: center;
 }
 
-@media (max-width: 47.5em) {
+@media (max-width: 760px) {
   .mobile-align-start {
     align-items: flex-start;
   }

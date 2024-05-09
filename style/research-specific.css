@@ -14,18 +14,29 @@ html {
     align-items: center;
 }
 
+.hero-logo {
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+
 .hero-text {
     padding-bottom: 0px;
     margin-left: 1.5em; /* Default margin-left */
 }
 
 /* Media query for screens smaller than 768px (typically mobile devices) */
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 760px) {
     /* Override margin-left for mobile */
     .hero-text {
       margin-left: 0 !important;
     }
-}
+   .hero-text h3 {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+    }
 
 
 /* Define a class for the hero text */
@@ -37,12 +48,17 @@ html {
 }
 
 /* Media query for screens smaller than 768px (typically mobile devices) */
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 760px) {
     /* Override margin-left for mobile */
     .hero-text-2 {
         margin-left: 0 !important;
     }
-}
+       .hero-text-2 h3 {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+    }
+
 
 .btn-research {
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -137,7 +153,7 @@ p {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 760px) {
     .date {
         margin: 0 auto;
     }
@@ -172,11 +188,7 @@ p {
 
 }
 
-@media only screen and (max-width: 48em) {
-    .hero-item h2 {
-        font-weight: 00;
-        
-    }
+@media only screen and (max-width: 760px) {
 
     .mobile-no-pb.py-3 {
         padding-bottom: 0;
@@ -216,7 +228,7 @@ p {
     margin-right: 5px;
 }
 
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 760px) {
     .hero-item h2 {
         font-weight: 400;
     }
@@ -226,7 +238,7 @@ p {
     }
 }
 
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 760px) {
     
     .divider {
         border-right: 0px solid white;
@@ -239,7 +251,7 @@ p {
     }
 }
 
-@media (max-width: 48em) {
+@media (max-width: 760px) {
     .flex-row {
         flex-direction: column;
     }
