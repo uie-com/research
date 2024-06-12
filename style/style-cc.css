@@ -881,6 +881,7 @@ h4 {
     $BUTTON
 \*------------------------------------*/
 
+/*changed the button max-width to 12em - Amy Velazquez*/
 .btn {
   display: inline-block;
   text-decoration: none;
