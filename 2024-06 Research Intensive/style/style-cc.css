@@ -885,7 +885,7 @@ h4 {
   display: inline-block;
   text-decoration: none;
   color: var(--buttonTextColor, #fff);
-  max-width: 12em;
+  max-width: 10em;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
