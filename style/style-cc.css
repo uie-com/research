@@ -903,6 +903,30 @@ h4 {
   outline: none;
 }
 
+.btn-disabled {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--buttonTextColor, #fff);
+  max-width: 12em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.125rem;
+  padding: 0.6em 2em;
+  background: var(--accent, black);
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+  margin: 0.35em;
+  border: none;
+  outline: none;
+}
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+
 .btn:hover,
 .btn:focus {
   cursor: pointer;
@@ -924,6 +948,17 @@ h4 {
   border: none;
   outline: none;
 }
+
+.btn-purple-disabled {
+  color: var(--white);
+  background-color: var(--brightPurple);
+  border: none;
+  outline: none;
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+
 .btn-purple:hover {
   color: var(--white);
   background-color: var(--darkPurple);
@@ -937,6 +972,17 @@ h4 {
   border: none;
   outline: none;
 }
+
+.btn-darkpurple-disabled {
+  color: var(--white);
+  background-color: var(--darkPurple);
+  border: none;
+  outline: none;
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+
 .btn-darkpurple:hover {
   color: var(--white);
   background-color: var(--darkerPurple);
@@ -977,6 +1023,16 @@ h4 {
   background-color: var(--brightOrange);
   border: none;
   outline: none;
+}
+
+.btn-orange-disabled {
+  color: var(--white) !important;
+  background-color: var(--brightOrange);
+  border: none;
+  outline: none;
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
 }
 
 .btn-orange:hover {
