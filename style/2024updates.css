@@ -1,261 +1,236 @@
 .bannerGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-    margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
 }
 
-
 .container2023 {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-bottom: 30px;
 }
 
 .imglogo {
-    max-width: 100%
-  }
-  .image {
-    width: 30%;
-    height: auto;
-  }
+  max-width: 100%;
+}
+.image {
+  width: 30%;
+  height: auto;
+}
 
-  .text {
-    font-size: 40px;
-    padding-left: 20px;
-  }
+.text {
+  font-size: 40px;
+  padding-left: 20px;
+}
 
 .jaredImg {
-    width: 100%;
-    height: auto;
-    
+  width: 100%;
+  height: auto;
 }
 
 .font-weighth2 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .newGrid {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
 
 .padding25 {
-    padding: 10px 25px;
+  padding: 10px 25px;
 }
 
 .padding50 {
-    padding: 5px 50px;
+  padding: 5px 50px;
 }
 
 .container2024 {
-    max-width: 66em;
-    margin: 0 auto;
+  max-width: 66em;
+  margin: 0 auto;
 }
 
 .fontQuicksand {
-    font-family: 'Playfair Display', serif;
-font-family: 'Quicksand', sans-serif; }
-
-.banderIcon {
-    height: 10.5rem;
-    width: 10.5rem;
+  font-family: "Playfair Display", serif;
+  font-family: "Quicksand", sans-serif;
 }
 
-
+.banderIcon {
+  height: 10.5rem;
+  width: 10.5rem;
+}
 
 .testimonial-divider {
-    border-right: 2px solid white;
+  border-right: 2px solid white;
 }
 
 .breadcrumb {
-    background-color: transparent;
-    padding: 0;
-    margin-bottom: 0;
-    color: #9b0e5b;
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 0;
+  color: #9b0e5b;
 }
 
 .desplayInlineBlock {
-    display: inline-block;
+  display: inline-block;
 }
 
 .boreder {
-    border: 1px solid #9b0e5b;
+  border: 1px solid #9b0e5b;
 }
 
-.tealBox{
-    margin-bottom: 80px; 
-    background-color: #016267; 
-    color: white
+.tealBox {
+  margin-bottom: 80px;
+  background-color: #016267;
+  color: white;
 }
- 
+
 .marginBottom {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
-
 
 .buttonLarge {
-    width: 454px;
-height: 61px;
-flex-shrink: 0;
+  width: 454px;
+  height: 61px;
+  flex-shrink: 0;
 }
 
 .ulTab {
-    padding-left: 3rem;
-
+  padding-left: 3rem;
 }
 .ulPaid {
-    list-style: none;
-
-  
+  list-style: none;
 }
 
 .mobleSize {
-    width: 50%;
+  width: 50%;
 }
 
 .bold {
-    font-weight: 700;
-
+  font-weight: 700;
 }
 
 .semibold {
-    font-weight: 600;
-
+  font-weight: 600;
 }
 
-
-ol, ul {
-    margin-left: 2em; 
-    line-height: 1.0;
-    padding: 0px 0px;
+ol,
+ul {
+ /* margin-left: 2em;*/
+  line-height: 1;
+  padding: 0px 0px;
 }
 
+.ulPaid .paidLi::before {
+  content: "\2713 "; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #9b0e5b; /* Change the color */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 5px 0px;
+}
 
-
-
-
-.ulPaid .paidLi::before{
-    content: "\2713 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #9B0E5B; /* Change the color */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; 
-    font-weight: 700;
-line-height: 1.5;
-padding: 5px 0px;
-} 
-
-
-.ulPaid .paidLili::before{
-    content: "\2022 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #9B0E5B; /* Change the color */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-    font-weight: 700;
-line-height: 1.5;
-padding: 5px 0px;
-} 
+.ulPaid .paidLili::before {
+  content: "\2022 "; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #9b0e5b; /* Change the color */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 5px 0px;
+}
 .ulPaidPTL {
-    list-style: none;
-    padding: 0px 0px;
+  list-style: none;
+  padding: 0px 0px;
 }
 
-.ulPaidPTL .paidLiPT::before{
-    content: "\2713 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #EF5922; /* Change the color */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-    font-weight: 700;
-line-height: 1.5;
-padding: 5px 0px;
+.ulPaidPTL .paidLiPT::before {
+  content: "\2713 "; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #ef5922; /* Change the color */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 5px 0px;
 }
 
-.ulPaidPTL .paidLiPTli::before{
-    content: "\2022  ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #EF5922; /* Change the color */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-    font-weight: 700;
-line-height: 1.5;
-padding: 5px 0px;
+.ulPaidPTL .paidLiPTli::before {
+  content: "\2022  "; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #ef5922; /* Change the color */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 5px 0px;
 }
-
-
-
-
-
-
 
 .btn a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 button {
-    border: none;
-    background-color: transparent;
-    color: #fff;
-    text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
 }
 
+@media only screen and (max-width: 625px) {
+  .text {
+    font-size: 19px;
+    padding-left: 18px;
+  }
+  .image {
+    width: 25%;
+    height: auto;
+  }
+  .jaredImg {
+    width: 100%;
+    height: auto;
+  }
+  .bannerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+  }
 
-
-
-@media only screen and (max-width: 625px) { 
-    .text {
-        font-size: 19px;
-        padding-left: 18px;
-      }
-      .image {
-        width: 25%;
-        height: auto;
-      }
-      .jaredImg {
-        width: 100%;
-        height: auto;
-      }
-      .bannerGrid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 1rem;
-        margin-bottom: 1rem;
-    }
-    
-.font-size{
+  .font-size {
     font-size: 20px;
     margin-top: 5px;
-}
+  }
 
-.caption {
+  .caption {
     font-size: 18px;
     margin-top: 5px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    text-align: left; 
+    text-align: left;
     font-weight: 600;
-}
+  }
 
-.mobleSizeBlank {
+  .mobleSizeBlank {
     height: 25px;
-}
+  }
 
-.textMoble {
+  .textMoble {
     font-size: 24px;
     margin-top: -75px;
-}
+  }
 
-.mobleSizeHero {
-  background-color: #016267;
-}
-.mainbody {
+  .mobleSizeHero {
+    background-color: #016267;
+  }
+  .mainbody {
     margin-top: -75px;
+  }
 }
-
-}
-
